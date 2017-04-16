@@ -1,0 +1,13 @@
+    RewriteEngine On
+	RewriteBase /
+    #DirectoryIndex index.htm
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{REQUEST_FILENAME} -l [OR]
+    RewriteCond %{REQUEST_FILENAME} -s [OR]
+
+    RewriteRule ^trang-chu\.html$ /index.php [L]
+	RewriteRule ^tin-tuc/(.*).htm$ index.php?page=tintuc&category=$1 [L] 
+    RewriteRule ^phat-giao\.html$ /index.php?page=phatgiao [L]
+
+
+

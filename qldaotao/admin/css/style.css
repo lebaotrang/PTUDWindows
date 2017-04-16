@@ -1,0 +1,164 @@
+*{margin:0px;padding:0px}
+a:hover{text-decoration: none !important;}
+h3,hr,p{margin-bottom:15px; margin-top: 5px;}
+.fixed{	clear: both; }
+/*Footer*/
+.footer{
+    position: absolute;
+    height:6%;
+    width:100%;
+    background-color: rgba(145, 145, 145, 0.5);
+    bottom: 0px;
+    text-align:center;
+    font-weight: 4px;
+}
+/*End Footer*/
+
+/*Popup chi tiet ung vien*/
+#popup {
+    z-index:999;  
+    background:#000;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:100%;
+    width:100%;
+    position:fixed;
+    display:none;
+    top:0;
+    right:0;
+}
+#tablechitiet {
+    background-color:#FFF;
+    z-index:999;
+    width:60%;
+    height:auto;
+    top:10%;
+    left:20%;
+    position:absolute;
+}
+.close{
+    position:absolute; 
+    top:0; 
+    right:0;
+    padding:5px 4px;
+}
+.close:hover, .btnclose:hover, .detail:hover, .sm_uv:hover{
+    cursor:pointer;
+}
+/*End Popup chi tiet ung vien */
+
+/*Form Login*/
+#login{	position: absolute;	height: 100%; width:100%; }
+#login form{
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	background-color:#3b3b3b;
+	border: 2px solid #525252;
+	height: 30%;
+	width: 30%;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.login-text {
+    width: 70%;
+    padding: 8px 8px 8px 35px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #bbb;
+    border: none;
+    background-color: #202020;
+    background-repeat: no-repeat;
+    background-position: 7px 50%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.user-text {	background-image: url('../img/login-username.jpg'); margin: 5px; }
+.pass-text {	background-image: url('../img/login-pass.jpg'); margin: 5px; }
+.login-btn {	background: url('../img/login-button.png'); border: none; height: 45px; width: 250px; color: #fff;}
+.login-btn:hover { cursor: pointer; background: url('../img/login-button-reverse.png'); }
+/*End Form Login*/
+
+/*Thong Bao*/
+.alertStyle{
+	position: absolute;
+	z-index: 999;
+	width:100%;
+	background-color: rgba(0, 255, 0, 0.5); 
+	margin: 5px auto;
+	text-align: center;
+}
+.alertStyle img{
+	
+}
+/*End Thong Bao*/
+
+/*Phan Trang */
+/*phan trang*/
+.navpg {
+	clear:both;
+	padding:5px 2px;
+	text-decoration: none;
+	text-align: center;
+}
+.normal-pagination{
+	background-color:#5cb85c;
+	padding:3px 8px 5px 8px;
+	color:#FFF;
+}
+.active-pagination{
+	color:#FFF;
+	background-color:#060;
+	padding:3px 8px 5px 8px;
+}
+.normal-pagination:hover{
+	text-decoration:underline;
+	background:#060;
+}
+/*end Phan Trang */
+
+/*bang du lieu */
+.table > thead{
+	font-weight: bold;
+	color: #fff;
+	background: #000;
+}
+/*End bang du lieu */
+
+/*Popup chi tiet ung vien*/
+.chitiet {
+    z-index:2;  
+    background:#000;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:100%;
+    width:100%;
+    position:fixed;
+    display:none;
+    top:0;
+    right:0;
+}
+#tablechitiet {
+    background-color:#FFF;
+    z-index:3;
+    width:60%;
+    height:auto;
+    top:7%;
+    left:20%;
+    position:absolute;
+}
+.close{
+    position:absolute; 
+    top:0; 
+    right:0;
+    padding:5px 4px;
+}
+.close:hover, .btnclose:hover, .detail:hover{
+    cursor:pointer;
+}
+/*End Popup chi tiet ung vien */
