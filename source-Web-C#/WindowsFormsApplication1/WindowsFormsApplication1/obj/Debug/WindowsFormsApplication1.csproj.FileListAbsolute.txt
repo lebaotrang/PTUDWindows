@@ -1,0 +1,56 @@
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.login.resources
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+c:\users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.xml
+C:\Users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.index.resources
+C:\Users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.usertaikhoan.resources
+C:\Users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.nhanvien.resources
+C:\Users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.daotao.resources
+C:\Users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.thongtincanhan.resources
+C:\Users\nguye\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.trangthaisinhvien.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.ketqua.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.monhoc.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.timkiemctdt.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.doimatkhau.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.capnhatketqua.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.thongketotnghiep.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.cache
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.compiled
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.thongkemonhoc.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.thongkesinhvien.resources
+C:\Users\nguye\Documents\Visual Studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.thongkeketqua.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MySql.Data.xml
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.index.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.login.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.capnhatketqua.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.doimatkhau.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.ketqua.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.monhoc.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.thongkeketqua.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.thongkemonhoc.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.thongkesinhvien.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.tacvu.timkiemctdt.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.usertaikhoan.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.nhanvien.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.daotao.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.thongtincanhan.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.trangthaisinhvien.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.thongketotnghiep.resources
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.cache
+C:\Users\LeBaoTrang\Downloads\WindowsFormsApplication1 (1)\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.compiled

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A1C071A-2328-44EF-B4E0-65E7FD97210B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="class\function.cs" />
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tacvu\capnhatketqua.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\capnhatketqua.Designer.cs">
+      <DependentUpon>capnhatketqua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\doimatkhau.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\doimatkhau.Designer.cs">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\ketqua.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\ketqua.Designer.cs">
+      <DependentUpon>ketqua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\monhoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\monhoc.Designer.cs">
+      <DependentUpon>monhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\thongkeketqua.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\thongkeketqua.Designer.cs">
+      <DependentUpon>thongkeketqua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\thongkemonhoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\thongkemonhoc.Designer.cs">
+      <DependentUpon>thongkemonhoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\thongkesinhvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\thongkesinhvien.Designer.cs">
+      <DependentUpon>thongkesinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\timkiemctdt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\timkiemctdt.Designer.cs">
+      <DependentUpon>timkiemctdt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\trangchu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\trangchu.Designer.cs">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\nhanvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\nhanvien.Designer.cs">
+      <DependentUpon>nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\daotao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\daotao.Designer.cs">
+      <DependentUpon>daotao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\thongtincanhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\thongtincanhan.Designer.cs">
+      <DependentUpon>thongtincanhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\trangthaisinhvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\trangthaisinhvien.Designer.cs">
+      <DependentUpon>trangthaisinhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tacvu\thongketotnghiep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tacvu\thongketotnghiep.Designer.cs">
+      <DependentUpon>thongketotnghiep.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="bangtotnghiep.rdlc" />
+    <EmbeddedResource Include="tacvu\capnhatketqua.resx">
+      <DependentUpon>capnhatketqua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\doimatkhau.resx">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\ketqua.resx">
+      <DependentUpon>ketqua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\monhoc.resx">
+      <DependentUpon>monhoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\monhoc.rdlc" />
+    <EmbeddedResource Include="tacvu\thongketotnghiep.rdlc" />
+    <EmbeddedResource Include="tacvu\thongkeketqua.rdlc" />
+    <EmbeddedResource Include="tacvu\thongkeketqua.resx">
+      <DependentUpon>thongkeketqua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\thongkesinhvien.rdlc" />
+    <EmbeddedResource Include="tacvu\thongkemonhoc.resx">
+      <DependentUpon>thongkemonhoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\thongkesinhvien.resx">
+      <DependentUpon>thongkesinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\timkiemctdt.resx">
+      <DependentUpon>timkiemctdt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\trangchu.resx">
+      <DependentUpon>trangchu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\nhanvien.resx">
+      <DependentUpon>nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\daotao.resx">
+      <DependentUpon>daotao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\thongtincanhan.resx">
+      <DependentUpon>thongtincanhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\trangthaisinhvien.resx">
+      <DependentUpon>trangthaisinhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tacvu\thongketotnghiep.resx">
+      <DependentUpon>thongketotnghiep.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\daotao.datasource" />
+    <None Include="Properties\DataSources\function.datasource" />
+    <None Include="Properties\DataSources\index.datasource" />
+    <None Include="Properties\DataSources\login.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.AuthenticationPluginConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.BaseCommandInterceptor.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.BaseExceptionInterceptor.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.BaseTableCache.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.CustomInstaller.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.InterceptorConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlBulkLoader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientFactory.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientPermission.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlClientPermissionAttribute.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlCommand.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlCommandBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConfiguration.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConnection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlConnectionStringBuilder.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlDataAdapter.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlDataReader.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlError.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlException.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlHelper.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlParameter.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlParameterCollection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlSchemaCollection.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlSchemaRow.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScript.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlScriptEventArgs.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlSecurityPermission.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlStatementExecutedEventHandler.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlTrace.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.MySqlTransaction.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.ReplicationConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.ReplicationServerConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.ReplicationServerGroupConfigurationElement.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.SchemaColumn.datasource" />
+    <None Include="Properties\DataSources\MySql.Data.MySqlClient.StringUtility.datasource" />
+    <None Include="Properties\DataSources\nhanvien.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\thongketotnghiep.datasource" />
+    <None Include="Properties\DataSources\thongtincanhan.datasource" />
+    <None Include="Properties\DataSources\trangthaisinhvien.datasource" />
+    <None Include="Properties\DataSources\usertaikhoan.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.tacvu.capnhatketqua.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.tacvu.doimatkhau.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.tacvu.ketqua.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.tacvu.monhoc.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication1.tacvu.timkiemctdt.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="image\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
